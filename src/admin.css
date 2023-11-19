@@ -1,0 +1,104 @@
+/* AdminDashboard.css */
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensures the container takes at least the full viewport height */
+}
+.charge-customers {
+  margin-bottom: 20px; /* Adjust the value to control the amount of space */
+}
+.radio-button1 {
+  margin-left: 230px; /* Adjust the value to control the amount of space */
+ 
+}
+.radio-button2 {
+  margin-left: 30px; /* Adjust the value to control the amount of space */
+ 
+}
+
+h1, h2 {
+  font-size: 32px;
+  margin-left: 140px; 
+}
+h3 {
+  font-size: 32px;
+  margin-left: 40px; 
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #030303;
+  color: #ffffff;
+}
+
+input[type="radio"]  {
+  display: inline-block;
+  width: 10px; /* Set the width of the custom radio button */
+  height: 10px; /* Set the height of the custom radio button */
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked {
+  background-color: #6741d9;
+  border: 1px solid #6741d9;
+}
+
+.spacebtw{
+  margin-left: 340px;
+  margin-bottom: 50px;
+}
+
+input[type="number"],
+input[type="text"] {
+  font-size: 16px;
+  width: 50px;
+  height: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px; /* Add some space between input fields */
+  background-color: #000; /* Set the background color to black */
+  border: 1px solid #fff;
+  color: #ffffff;
+  margin-left: 20px;
+}
+#customAmount {
+  width: 300px; /* Adjust the width to your preference */
+  margin-left: 150px;
+}
+.bar-chart {
+  background-color: #f0c3f1;
+}
+
+.save-button {
+  background-color: #6741d9;
+  width: 600px;
+  justify-content: center;
+}
+
+.save-button:hover,
+.save-button:active {
+  border: 1px solid #f0c3f1;
+}
+.rounded-button {
+  font-size: 16px;
+  padding: 20px;
+  width: 600px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #6741D9;
+  color: #fff;
+  border: none;
+  margin-top: 20px; /* Add some space between the input fields and the button */
+  margin-left: 80px;
+}
+
+.rounded-button:hover {
+  background-color: #2980b9;
+}

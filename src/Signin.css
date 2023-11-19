@@ -1,0 +1,96 @@
+body {
+  background-color: #030303; /* Set the background color to #030303 */
+  margin: 0; /* Remove default body margin */
+  font-family: Poppins;/* Specify a font family if needed */
+}
+label {
+  color: white;
+  text-align: center; /* Align label text to center */
+}
+/* Style for the labels */
+.label-container {
+  text-align: center;
+}
+.sign-in-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* This ensures the container takes the full height of the viewport */
+}
+h2 {
+  font-size: 32px; /* Adjust the font size as needed */
+  margin-bottom: 20px; /* Add some space below the heading */
+  color: white;
+}
+ 
+
+#password.rounded-input {
+  font-size: 16px;
+  width: 600px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px; /* Add some space between input fields */
+  background-color: #000; /* Set the background color to black */
+  border: 1px solid #fff; /* Set the border color to white */
+  color: #fff; /* Set the text color to white */
+  margin-left: 100px;
+}
+#password::placeholder {
+  color: #fff; /* Set the placeholder color to white */
+}
+#username.rounded-input {
+  font-size: 16px;
+  width: 600px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #000;
+  border: 1px solid #fff;
+  margin-left: 100px;
+}
+
+#username.rounded-input::placeholder {
+  color: #fff;
+}
+.dasboard-input {
+  font-size: 16px;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 1px;
+  margin-bottom: 10px; /* Add some space between input fields */
+  background-color: #000; /* Set the background color to black */
+  border: 1px solid #fff; /* Set the border color to white */
+
+} 
+
+
+/* .password-input-container {
+  display: flex;
+  align-items: center;
+} */
+
+.password-toggle-icon {
+  cursor: pointer;
+  margin-left: 5px; /* Add some space between the password input and the eye icon */
+}
+
+.rounded-button {
+  font-size: 16px;
+  padding: 20px;
+  width: 600px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #6741D9;
+  color: #fff;
+  border: none;
+  margin-top: 20px; /* Add some space between the input fields and the button */
+ 
+}
+
+.rounded-button:hover {
+  background-color: #2980b9;
+}
